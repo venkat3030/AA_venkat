@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pack.AA_TN_PDL">
+        <methods>
+          <include name="Newloan_VoidPrePayment"/>
+          <include name="NewLoan_AgeStore_BuyBack"/>
+          <include name="PartialPayment_BuyBackChange_Void"/>
+          <include name="tearDown"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackNextProcessingday_OnlyCashshouldbeAvalible"/>
+          <include name="NewLoan_AgeStore_BuyBack_CCK_2Tendertype_DiffNum_TranssionShouldBeprocessed"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_Mo_SameNum_TranssionShouldnotbeprocessed"/>
+          <include name="Partialpayment_agestorevoid"/>
+          <include name="NewLoan_AgeStore_BuyBack_CCK_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackVoidWithCash"/>
+          <include name="NewLoan_AgeStore_BuyBack_CCK_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackVoidWithOriginalTender"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_DiffNum_TranssionShouldBeprocessed"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_CashTranssionShouldnotbeprocessed"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_DiffNum_MiddayDeposit_BuyBackVoid"/>
+          <include name="initialize"/>
+          <include name="quit"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackVoidWithOriginalTender"/>
+          <include name="Partialpayment_void"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_CCK_SameNum_TranssionShouldnotbeprocessed"/>
+          <include name="setup_Grid"/>
+          <include name="Newloan_PartialPayment_Deposit_Clear_Refund"/>
+          <include name="NewLoan_AgeStore_BuyBack_CCK_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackNextProcessingday_OnlyCashshouldbeAvalible"/>
+          <include name="NewLoan_AgeStore_BuyBack_2Tendertype_DiffNum_TranssionShouldBeprocessed_BuyBackVoidwithCash"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- pack.AA_TN_PDL -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

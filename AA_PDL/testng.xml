@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+   <test thread-count="5" name="Test">
+  <groups>																																																	
+  <run>
+
+    
+
+         <include name="venkat_FL_PDL3"/> 
+           <!--    <include name="pradeep_FL_PDL"/>   -->
+    <!-- <include name="venkat_FL_PDL_New22"/> -->
+    <!-- <include name="venkat_wy_PDL1"/> -->
+    
+            <!-- <include name="venkat_TN_PDL1"/> -->
+    <!--  <include name="veritech_Verification"/> -->
+    
+
+       </run>
+        
+  </groups>
+   <classes>
+ <!--      <class name="pack.AA_WY_PDL"/> -->
+       <!-- <class name="pack.AA_WY_PDL2"/> -->
+    
+        <!-- <class name="pack.AA_TN_PDL"/> -->
+      <class name="pack.AA_FL_PDL"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
